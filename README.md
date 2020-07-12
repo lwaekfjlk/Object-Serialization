@@ -1,4 +1,4 @@
-# Recro
+Recro
 
 ![license](https://img.shields.io/github/license/:user/:repo.svg)
 ![](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)
@@ -175,7 +175,13 @@ file_base642xml("myxml.xml");
 ## Possible Flaw
 
 * Compiling it by g++ receives Segment Fault
-* <name> ...</name>  in the XML file is not precisely defined and does not have explicit meanings.
+
+* Tag name in the XML file is not precisely defined and does not have explicit meanings.
+
+  ```xml
+  <tagname> ...</tagname> 
+  ```
+
 * Do not support weak_ptr<T> in smart pointer type
 
 
