@@ -3,7 +3,7 @@
 ![license](https://img.shields.io/github/license/:user/:repo.svg)
 ![](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)
 
-**Recro** is a simple wrapper module that achieves object serialization of both **XML** and **binary**i. It is developed in C++17.
+**Recro** is a simple wrapper module that achieves both **XML** and **binary** serialization. It is developed in C++17.
 
 ## Background
 
