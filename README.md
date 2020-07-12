@@ -20,7 +20,7 @@ In this project, two **namespaces** *xml_serialize*,  *binary_serialize*  are in
 
 ## Running Tips
 
-
+This project has been testes under Windows10 and Mac OS Catalina.
 
 ####Windows
 
