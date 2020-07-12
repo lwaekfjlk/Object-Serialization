@@ -220,7 +220,7 @@ int main() {
 	Test_Struct __struct, ___struct;
 
 
-	// need cl compiler to avoid segment fault
+	// need vs compiler to avoid segment fault
 
 	/*
 	serialize(_sub_struct, "sub_struct.data");
@@ -255,7 +255,7 @@ int main() {
 			)
 		<< endl;
 
-	// need cl compiler to avoid segment fault
+	// need vs compiler to avoid segment fault
 
 	/*
 	serialize(_struct, "struct.data");
@@ -300,7 +300,7 @@ int main() {
 	_vector_struct.push_back(_struct);
 
 
-	// need cl compiler to avoid segment fault
+	// need vs compiler to avoid segment fault
 	/*
 	cout << "hello,world"<<endl;
 	serialize(_vector_struct, "vector_struct.data");
@@ -356,7 +356,7 @@ int main() {
 	map<double, vector<Test_Struct> > _map_struct, __map_struct, ___map_struct;
 	_map_struct[3.14] = _vector_struct;
 
-	// need cl compiler to avoid segment fault
+	// need vs compiler to avoid segment fault
 
 	/*
 	serialize(_map_struct, "map_struct.data");
@@ -394,7 +394,7 @@ int main() {
 	list<struct Test_Struct>_list_struct{ _struct };
 	list<struct Test_Struct>__list_struct, ___list_struct;
 
-	// need cl compiler to avoid segment fault
+	// need vs compiler to avoid segment fault
 
 
 	typename list<struct Test_Struct>::iterator  i = _list_struct.begin();
