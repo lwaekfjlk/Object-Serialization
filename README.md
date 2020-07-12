@@ -126,8 +126,8 @@ REFLECTION(Test_Struct,_int,_double,_string,_vector,_set,_pair,_map,_nest_pair,_
 // use user defined struct
 
 // translate struct into binary file
-serialize(_struct, "struct.data");
-deserialize(___struct, "struct.data");
+binary_serialize::serialize(_struct, "struct.data");
+binary_serialize::deserialize(___struct, "struct.data");
 cout
   << "struct_binary: "
   << ((_struct._int == ___struct._int) &&
@@ -142,8 +142,8 @@ cout
   << endl;
 
 // translate struct into xml file
-serialize_xml(_struct,"struct","struct.xml");
-deserialize_xml(__struct,"struct","struct.xml");
+xml_serialize::serialize_xml(_struct,"struct","struct.xml");
+xml_serialize::deserialize_xml(__struct,"struct","struct.xml");
 cout
   << "struct_xml: "
   <<( (_struct._int == __struct._int) &&
