@@ -18,7 +18,7 @@ In this project, two **namespaces** *xml_serialize*,  *binary_serialize*  are in
 
 *[Fun]* 冴えない彼女の育てかた S2E08
 
-![](./importance_of_template.png)
+![](./template_importance.png)
 
 ## Running Tips
 
