@@ -16,9 +16,9 @@ In this project, two **namespaces** *xml_serialize*,  *binary_serialize*  are in
 * **xml_serialize** developed by Haofei YU and act as a wrapper module of  **tinyxml** 
 * **binary_serialize** developed by Jianhao Fu
 
-*[Fun]* 冴えない彼女の育てかた S02E08
+*[Fun]* 冴えない彼女の育てかた S2E08
 
-![截屏2020-07-13下午6.55.05](/Users/yuhaofei/Library/Application Support/typora-user-images/截屏2020-07-13下午6.55.05.png)
+![](./importance_of_template.png)
 
 ## Running Tips
 
